@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="Service_Discovery" />
+        <module name="Configuration_Service" />
+        <module name="API_Gateway" />
+        <module name="Device_Management_Service" />
+        <module name="Automation_Service" />
+        <module name="User_Management_Service" />
+        <module name="Monitoring_Notification_Service" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="API_Gateway" target="17" />
+      <module name="Automation_Service" target="17" />
+      <module name="Configuration_Service" target="17" />
+      <module name="Device_Management_Service" target="17" />
+      <module name="Monitoring_Notification_Service" target="17" />
+      <module name="Service_Discovery" target="17" />
+      <module name="User_Management_Service" target="17" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="API_Gateway" options="-parameters" />
+      <module name="Automation_Service" options="-parameters" />
+      <module name="Configuration_Service" options="-parameters" />
+      <module name="Device_Management_Service" options="-parameters" />
+      <module name="Monitoring_Notification_Service" options="-parameters" />
+      <module name="Service_Discovery" options="-parameters" />
+      <module name="User_Management_Service" options="-parameters" />
+    </option>
+  </component>
+</project>
